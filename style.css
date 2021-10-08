@@ -379,3 +379,7 @@ aside {
 .sliding-text{
 	font-size: 10px;
 }
+
+ul li{
+	margin : 1.5em;
+}
