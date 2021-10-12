@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link href = 'style.css' rel = 'stylesheet'>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>CTT Voyages</title>
 
 </head>
@@ -66,35 +66,35 @@
         <li>Les transfert en bus sur place</li>
         <li>Les restaurants</li>
         <li>Les activités</li>
-        <p style = 'font-size : 9px;'>* conso en boîte de nuit non-incluse</p>
+        <li><p style = 'font-size : 9px;'>* conso en boîte de nuit non-incluse</p></li>
 
       </ul>
       <h1>Résumé</h1>
-      <p>Nous vous proposons un voyage inoubliable de 4 jours à Palma de Majorque. Un voyage immersif dans cette nature unique via la randonée et le snorkeling, mais aussi dans cette belle cité par la visite du centre ville et de ses momunements iconiques. N’oublions quand même pas de profiter du soleil et de la convivialité avec une après-midi relaxation sur la plage et une sortie en boite de nuit. </p>
+      <p> Nous vous proposons un voyage inoubliable de 4 jours à Palma de Majorque. Un voyage immersif dans cette nature unique via la randonée et le snorkeling, mais aussi dans cette belle cité par la visite du centre ville et de ses momunements iconiques. N’oublions quand même pas de profiter du soleil et de la convivialité avec une après-midi relaxation sur la plage et une sortie en boite de nuit. </p>
     </div>
 
     <input type="radio" name="tabs" id="tabtwo">
-    <label for="tabtwo">itinéraire complet</label>
+    <label for="tabtwo">planning</label>
     <div class="tab">
-              <h1>Résumé du Planning :</h1>
-        <ul>
-        <li>
-        <h3>1er jour : </h3>
-        Voyage en bateaux nocturne de Toulon à Alcuida
-        </li>
-        <li>
-        <h3>2e jour : </h3>
-        Transfert en bus d’Alcuida jusqu’à l’hotel Secotel Zurbaran Palma, installation puis bus jusqu’à Béns d’Avall pour un pique-nique et une sublime randonnée dans la nature majorquaise. Puis retour en bus direction le restaurant Tast Union pour déguster des specialités culinaires locales. 
-        </li>
-        <li>
-        <h3>3e jour : </h3>
-        La matinée sera occupée par une visite du centre ville et de ses momuments iconiques, avec la possibilté de faire du shopping plus tard dans la matinée. Il y aura ensuite un pique-nique sur une des plages de Palma suivi d’une après-midi snorkeling afin d’observer les splendides fonds marins de la baie de Palma. Le soir, il sera proposé aux volontaires une soirée boite de nuit.
-        </li>
-        <li>
-        <h3>4e jour : </h3>
-        La matinée sera libre, et nous proposerons une après-midi détente sur une des plages de Palma en vue du retour nocturne en bateau de Alcuida à Toulon. </p>
-        </li>
-        </ul>
+      <h1>Résumé du Planning :</h1>
+<ul>
+<li>
+<h3>1er jour : </h3>
+Voyage en bateaux nocturne de Toulon à Alcuida
+</li>
+<li>
+<h3>2e jour : </h3>
+Transfert en bus d’Alcuida jusqu’à l’hotel Secotel Zurbaran Palma, installation puis bus jusqu’à Béns d’Avall pour un pique-nique et une sublime randonnée dans la nature majorquaise. Puis retour en bus direction le restaurant Tast Union pour déguster des specialités culinaires locales. 
+</li>
+<li>
+<h3>3e jour : </h3>
+La matinée sera occupée par une visite du centre ville et de ses momuments iconiques, avec la possibilté de faire du shopping plus tard dans la matinée. Il y aura ensuite un pique-nique sur une des plages de Palma suivi d’une après-midi snorkeling afin d’observer les splendides fonds marins de la baie de Palma. Le soir, il sera proposé aux volontaires une soirée boite de nuit.
+</li>
+<li>
+<h3>4e jour : </h3>
+La matinée sera libre, et nous proposerons une après-midi détente sur une des plages de Palma en vue du retour nocturne en bateau de Alcuida à Toulon.
+</li>
+</ul>
     </div>
     
     <input type="radio" name="tabs" id="tabthree">
@@ -126,11 +126,17 @@
   </div>
   <div class="help-text">
 <!--     <br><br> -->
-    <h2>Get your watch's model from its papers!</h2>
-    <p>If you still have the watch's original papers and books, and you're not sure of the watch's exact model name or number, you can usually find that information in the papers.</p>
-    <p>So we suggest you refer to the papers in order to fill in the following boxes.</p>
+    <h2>Envoyer un Mail</h2>
+    <form action = "mailto:hdessaud1@gmail.com?subject=cttVoyages" name="envoie" method = POST enctype="text/plain">
+      <b>Nom : </b><input type="text" name="nom" size=20 maxlength=50><br>
+      <b>Email : </b><input type="email" name="email" size=20 maxlength=50><br>
+      <textarea name="message" cols="30" rows="8"></textarea>
+      <input type="submit" value="Envoyer" name="Envoyer">
+      <input type="reset" name="Submit" value="Effacer">
+
+    </form>
   </div>
-  </aside>
+</aside>
 </body>
 
 </html>
