@@ -694,7 +694,7 @@ html{
 	  position: fixed;
 	  height : 50px;
 	  top: 26.8%;
-	  right: -5px;
+	  right: 0.1em;
 	  z-index: 6;
 	  cursor: pointer;
 	  padding: 10px;
@@ -718,7 +718,7 @@ html{
 	  position: fixed;
 	  height : 50px;
 	  top: 55%;
-	  right: -18px;
+	  right: -1em;
 	  z-index: 6;
 	  cursor: pointer;
 	  padding: 10px;
