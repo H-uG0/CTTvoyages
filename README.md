@@ -1,14 +1,17 @@
 # Présentation du projet
 Ceci est un site web accompagnant notre projet d'organisation d'un séjour à Palma de Majorque. Vous pouvez y retrouver des informations, comme: comment réserver sa place, qu'est ce qui est prévu durant le séjour, des photos de l'hôtel ainsi des différentes activités (comme le restaurant, le lieu de la randonnée etc...).
 
+# A quoi ressemble le site web ?
+![image_site](https://user-images.githubusercontent.com/91959894/137294774-fc234c02-85fd-42d7-9035-4539a8d0a0fc.png)
+
+
 # Pour accéder au site
 Deux manières différentes sont possible pour accéder au site web:
-
   - Si vous êtes sur PC, vous pouvez: Soit télécharger les fichiers ci-dessus, et lancer le fichier `index.html` dans n'importe quel navigateur, soit vous pouvez cliquer sur cette adresse web suivante: **https://cttvoyages.xyz**
   - Si vous êtes sur un smartphone, tablette etc... vous pouvez également cliquer sur le lien ci-dessus.
 
 
-# A quoi servent les différents fichiers du projet
+# A quoi servent les différents fichiers du projet ?
 En voici la liste:
 |Nom du fichier |Son utilité |
 |--- |--- |
