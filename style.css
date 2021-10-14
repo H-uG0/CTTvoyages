@@ -266,6 +266,7 @@ html{
 	  background: #FFBB00;
 	  padding: 20px;
 	  box-shadow: -10px 10px 0px 0px black;
+	  overflow : sceroll;
 	}
 	 
 	.tabs input[type="radio"] {
