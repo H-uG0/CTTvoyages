@@ -16,4 +16,4 @@ En voici la liste:
 |style.css |Ce fichier a pour fonction de donner une meilleure apparence graphique à notre fichier *index.html*, avec le language nommé *CSS*. Avec ce dernier, on peut par exemple donner une image de fond à notre site, styliser tout types de texte (titre, paragraphe etc...) en modifiant leur couleur, leur police d'écriture etc... |
 |README.md |Fichier qui a pour principal fonction de décrire avec rapidité et simplicité le projet, son utilité etc... Il ne s'agit cependant pas d'une documentation, c'est une présentation rapide, qui montre également comment se servir du projet. Il possède l'extention *.md* correspondant au language *MARKDOWN*.|
 |Le dossier "images" |Comme son nom l'indique, ce dossier stock toutes les images qui seront utilisées par la suite sur le site. On y accède dans le fichier *index.html* via des chemins dit "relatifs" (on va chercher un fchier, imag etc... en partant du répéertoire du fichier dans lequel on se trouve. |
-|Le dossier "others"       |       |
+|Le dossier "others" |Permet de stocker différents ajout aux fonctionnalités de base, par exemple une nouvelle police d'écriture|
