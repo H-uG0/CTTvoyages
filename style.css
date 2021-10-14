@@ -729,7 +729,6 @@ html{
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
-	  overflow: scroll;
 	}
 
 	label[for="toggle2"]:hover {
