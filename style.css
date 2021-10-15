@@ -383,7 +383,10 @@ display:flex;
 background-color:#DF004F;
 color:#fff;
 top:55%;
-right:-10000px
+right:-10000px;
+overflow:scroll;
+display:flex;
+justify-content:space-around;
 }
 
 .help-text {
