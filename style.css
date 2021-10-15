@@ -767,7 +767,9 @@ display:flex;
 background-color:#FB0;
 color:#fff;
 top:26.8%;
-right:-1000px
+right:-1000px;
+overflow-x:scroll;
+justify-content:space-around
 }
 
 .sliding-panel1 {
