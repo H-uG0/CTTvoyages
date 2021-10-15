@@ -375,7 +375,7 @@ display:flex;
 background-color:#FB0;
 color:#fff;
 top:26.8%;
-right:-1000px;
+right:-1500px;
 overflow-x:scroll;
 justify-content:space-around
 }
@@ -385,10 +385,7 @@ display:flex;
 background-color:#DF004F;
 color:#fff;
 top:55%;
-right:-10000px;
-overflow:scroll;
-display:flex;
-justify-content:space-around;
+right:-1000px;
 }
 
 .help-text {
