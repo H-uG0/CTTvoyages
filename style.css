@@ -3,6 +3,28 @@ font-family:'lobster';
 src:url(./others/Lobster/Lobster-Regular.ttf)
 }
 
+.help-text h2 {
+width:70%
+}
+
+.help-text input {
+background-color:#000;
+border:10px solid #da195e;
+color:#fff
+}
+
+.help-text button {
+background-color:#000;
+border:10px solid #da195e;
+color:#fff
+}
+
+.help-text textarea {
+color:#fff;
+background-color:#000;
+border:10px solid #da195e
+}
+
 html {
 width:100vw;
 height:300vh
