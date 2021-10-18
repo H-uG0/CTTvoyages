@@ -30,6 +30,16 @@ width:100vw;
 height:300vh
 }
 
+.contributorsPics{
+  display : flex;
+  flex-direction : column;
+  justify-content : space-evenly;
+}
+
+.pic{
+  width : 30%;
+}
+
 @media all and (min-width : 501px) {
   h2 {
   background-color:#000;
