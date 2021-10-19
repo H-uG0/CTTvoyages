@@ -1,838 +1,838 @@
 @font-face {
-font-family:'lobster';
-src:url(./others/Lobster/Lobster-Regular.ttf)
+  font-family:'lobster';
+  src:url(./others/Lobster/Lobster-Regular.ttf)
 }
 
 .help-text h2 {
-width:70%
+  width:70%
 }
 
 .help-text input {
-background-color:#000;
-border:10px solid #da195e;
-color:#fff
+  background-color:#000;
+  border:10px solid #da195e;
+  color:#fff
 }
 
 .help-text button {
-background-color:#000;
-border:10px solid #da195e;
-color:#fff
+  background-color:#000;
+  border:10px solid #da195e;
+  color:#fff
 }
 
 .help-text textarea {
-color:#fff;
-background-color:#000;
-border:10px solid #da195e
+  color:#fff;
+  background-color:#000;
+  border:10px solid #da195e
 }
 
 html {
-width:100vw;
-height:300vh
+  width:100vw;
+  height:300vh
 }
 
 .contributorsPics{
-  display : flex;
-  flex-direction : column;
-  justify-content : space-evenly;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
 }
 
 .pic{
-  width : 30%;
+    width : 30%;
 }
 
 @media all and (min-width : 501px) {
   h2 {
-  background-color:#000;
-  color:#FFF
+    background-color:#000;
+    color:#FFF
   }
 
   h2:hover {
-  background-color:#FFF;
-  color:#000
+    background-color:#FFF;
+    color:#000
   }
 
   body {
-  background-image:url(./images/bg_image_beach.jpeg);
-  background-attachment:fixed;
-  background-repeat:no-repeat;
-  background-size:cover;
-  padding:1em
+    background-image:url(./images/bg_image_beach.jpeg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:1em
   }
 
   s {
-  font-size:2em;
-  color:rebeccapurple
+    font-size:2em;
+    color:rebeccapurple
   }
 
   .lab {
-  font-weight:700
+    font-weight:700
   }
 
   #main_p {
-  width:50%;
-  font-size:.75em;
-  background-color:#DF004F;
-  margin-bottom:1em
+    width:50%;
+    font-size:.75em;
+    background-color:#DF004F;
+    margin-bottom:1em
   }
 
   #header {
-  width:100%;
-  height:3em;
-  font-size:2em;
-  text-align:center;
-  background-color:rgba(0,158,142,0.8);
-  color:#fff;
-  font-family:lobster;
-  padding:-10%
+    width:100%;
+    height:3em;
+    font-size:2em;
+    text-align:center;
+    background-color:rgba(0,158,142,0.8);
+    color:#fff;
+    font-family:lobster;
+    padding:-10%
   }
 
   #title {
-  margin-top:1.5%
+    margin-top:1.5%
   }
 
   #main-container {
-  width:100%;
-  height:auto;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  padding:10%
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10%
   }
 
   * {
-  box-sizing:border-box;
-  -webkit-box-sizing:border-box
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box
   }
 
   html,body {
-  height:100%
+    height:100%
   }
 
   body {
-  margin:0;
-  font:16px/1.3 sans-serif
+    margin:0;
+    font:16px/1.3 sans-serif
   }
 
   .CSSgal {
-  position:relative;
-  overflow:hidden;
-  height:500px;
-  width:100%;
-  background-color:#FB0;
-  right:10%;
-  border:2em solid #FB0;
-  box-shadow:-10px 10px 0 0 #000;
-  margin-top:1.7em;
-  margin-left:3.5em
+    position:relative;
+    overflow:hidden;
+    height:500px;
+    width:100%;
+    background-color:#FB0;
+    right:10%;
+    border:2em solid #FB0;
+    box-shadow:-10px 10px 0 0 #000;
+    margin-top:1.7em;
+    margin-left:3.5em
   }
 
   .CSSgal .slider {
-  height:100%;
-  white-space:nowrap;
-  font-size:0;
-  transition:.8s
+    height:100%;
+    white-space:nowrap;
+    font-size:0;
+    transition:.8s
   }
 
   .CSSgal .slider > * {
-  font-size:1rem;
-  display:inline-block;
-  white-space:normal;
-  vertical-align:top;
-  height:100%;
-  width:100%;
-  background:none 50% no-repeat;
-  background-size:cover
+    font-size:1rem;
+    display:inline-block;
+    white-space:normal;
+    vertical-align:top;
+    height:100%;
+    width:100%;
+    background:none 50% no-repeat;
+    background-size:cover
   }
 
-  .CSSgal .prevNext {
-  position:absolute;
-  z-index:1;
-  top:50%;
-  width:100%;
-  height:0
+    .CSSgal .prevNext {
+    position:absolute;
+    z-index:1;
+    top:50%;
+    width:100%;
+    height:0
   }
 
   .CSSgal .prevNext > div+div {
-  visibility:hidden
+    visibility:hidden
   }
 
   .CSSgal .prevNext a {
-  background:#fff;
-  position:absolute;
-  width:60px;
-  height:60px;
-  line-height:60px;
-  text-align:center;
-  opacity:.7;
-  -webkit-transition:.3s;
-  transition:.3s;
-  -webkit-transform:translateY(-50%);
-  transform:translateY(-50%);
-  left:0
+    background:#fff;
+    position:absolute;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    opacity:.7;
+    -webkit-transition:.3s;
+    transition:.3s;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    left:0
   }
 
   .CSSgal .prevNext a:hover {
-  opacity:1
+    opacity:1
   }
 
   .CSSgal .prevNext a+a {
-  left:auto;
-  right:0
+    left:auto;
+    right:0
   }
 
   .CSSgal .bullets {
-  position:absolute;
-  z-index:2;
-  bottom:0;
-  padding:10px 0;
-  width:100%;
-  text-align:center
+    position:absolute;
+    z-index:2;
+    bottom:0;
+    padding:10px 0;
+    width:100%;
+    text-align:center
   }
 
   .CSSgal .bullets > a {
-  display:inline-block;
-  width:30px;
-  height:30px;
-  line-height:30px;
-  text-decoration:none;
-  text-align:center;
-  background:rgba(255,255,255,1);
-  -webkit-transition:.3s;
-  transition:.3s
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-decoration:none;
+    text-align:center;
+    background:rgba(255,255,255,1);
+    -webkit-transition:.3s;
+    transition:.3s
   }
 
   .CSSgal .bullets > a+a {
-  background:rgba(255,255,255,0.5)
+    background:rgba(255,255,255,0.5)
   }
 
   .CSSgal .bullets > a:hover {
-  background:rgba(255,255,255,0.7)!important
+    background:rgba(255,255,255,0.7)!important
   }
 
   .CSSgal >s:target ~ .bullets >* {
-  background:rgba(255,255,255,0.5)
+    background:rgba(255,255,255,0.5)
   }
 
   #s1:target ~ .bullets >:nth-child(1) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   #s2:target ~ .bullets >:nth-child(2) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   #s3:target ~ .bullets >:nth-child(3) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   .CSSgal >s:target ~ .prevNext >* {
-  visibility:hidden
+    visibility:hidden
   }
 
   #s1:target ~ .prevNext >:nth-child(1) {
-  visibility:visible
+    visibility:visible
   }
 
   #s2:target ~ .prevNext >:nth-child(2) {
-  visibility:visible
+    visibility:visible
   }
 
   #s3:target ~ .prevNext >:nth-child(3) {
-  visibility:visible
+    visibility:visible
   }
 
   #s1:target ~ .slider {
-  transform:translateX(0%);
-  -webkit-transform:translateX(0%)
+    transform:translateX(0%);
+    -webkit-transform:translateX(0%)
   }
 
   #s2:target ~ .slider {
-  transform:translateX(-100%);
-  -webkit-transform:translateX(-100%)
+    transform:translateX(-100%);
+    -webkit-transform:translateX(-100%)
   }
 
   #s3:target ~ .slider {
-  transform:translateX(-200%);
-  -webkit-transform:translateX(-200%)
+    transform:translateX(-200%);
+    -webkit-transform:translateX(-200%)
   }
 
   .CSSgal {
-  color:#fff;
-  text-align:center
+    color:#fff;
+    text-align:center
   }
 
   .CSSgal .slider h2 {
-  margin-top:35vh;
-  font-weight:200;
-  letter-spacing:-.06em;
-  word-spacing:.2em;
-  font-size:3em
+    margin-top:35vh;
+    font-weight:200;
+    letter-spacing:-.06em;
+    word-spacing:.2em;
+    font-size:3em
   }
 
   .CSSgal a {
-  border-radius:50%;
-  margin:0 3px;
-  color:rgba(0,0,0,0.8);
-  text-decoration:none
+    border-radius:50%;
+    margin:0 3px;
+    color:rgba(0,0,0,0.8);
+    text-decoration:none
   }
 
   .tabs {
-  display:flex;
-  flex-wrap:wrap;
-  height:700px;
-  width:35em;
-  margin:10%
+    display:flex;
+    flex-wrap:wrap;
+    height:700px;
+    width:35em;
+    margin:10%
   }
 
   .tabs label {
-  order:1;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:1rem 2rem;
-  margin-right:.2rem;
-  cursor:pointer;
-  background-color:#C59000;
-  font-weight:700;
-  transition:background ease .3s
+    order:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem 2rem;
+    margin-right:.2rem;
+    cursor:pointer;
+    background-color:#C59000;
+    font-weight:700;
+    transition:background ease .3s
   }
 
   .tabs .tab {
-  order:9;
-  flex-grow:1;
-  width:100%;
-  height:100%;
-  display:none;
-  padding:1rem;
-  background:#FB0;
-  padding:20px;
-  box-shadow:-10px 10px 0 0 #000;
-  overflow:scroll
+    order:9;
+    flex-grow:1;
+    width:100%;
+    height:100%;
+    display:none;
+    padding:1rem;
+    background:#FB0;
+    padding:20px;
+    box-shadow:-10px 10px 0 0 #000;
+    overflow:scroll
   }
 
   .tabs input[type="radio"] {
-  display:none
+    display:none
   }
 
   .tabs input[type="radio"]:checked + label {
-  background:#FB0
+    background:#FB0
   }
 
   .tabs input[type="radio"]:checked + label + .tab {
-  display:block
+    display:block
   }
   }
 
   @media (max-width: 465px) {
     .tabs .tab,.tabs label {
-    order:initial
+      order:initial
     }
 
     .tabs label {
-    width:100%;
-    margin-left:50px
+      width:100%;
+      margin-left:50px
     }
   }
 
   label[for="toggle"] {
-  font-size:2rem;
-  position:fixed;
-  height:208px;
-  top:26.8%;
-  right:0;
-  z-index:6;
-  cursor:pointer;
-  padding:10px;
-  background-color:#FB0;
-  box-shadow:-10px 10px 0 0 #000;
-  transition:all .5s
+    font-size:2rem;
+    position:fixed;
+    height:208px;
+    top:26.8%;
+    right:0;
+    z-index:6;
+    cursor:pointer;
+    padding:10px;
+    background-color:#FB0;
+    box-shadow:-10px 10px 0 0 #000;
+    transition:all .5s
   }
 
   label[for="toggle"]:hover {
-  animation-timing-function:.5s ease-in;
-  background-color:#FD2
+    animation-timing-function:.5s ease-in;
+    background-color:#FD2
   }
 
   label[for="toggle2"] {
-  font-size:1.5rem;
-  position:fixed;
-  height:208px;
-  top:55%;
-  right:0;
-  z-index:6;
-  cursor:pointer;
-  padding:10px;
-  background-color:#DF004F;
-  box-shadow:-10px 10px 0 0 #000;
-  transition:all .5s
+    font-size:1.5rem;
+    position:fixed;
+    height:208px;
+    top:55%;
+    right:0;
+    z-index:6;
+    cursor:pointer;
+    padding:10px;
+    background-color:#DF004F;
+    box-shadow:-10px 10px 0 0 #000;
+    transition:all .5s
   }
 
   label[for="toggle2"]:hover {
-  animation-timing-function:.5s ease-in;
-  background-color:#fa397e
+    animation-timing-function:.5s ease-in;
+    background-color:#fa397e
   }
 
   #toggle {
-  display:none
+    display:none
   }
 
   #toggle2 {
-  display:none
+    display:none
   }
 
   .sliding-panel {
-  display:flex;
-  background-color:#FB0;
-  color:#fff;
-  top:26.8%;
-  right:-1500px;
-  overflow-x:scroll;
-  justify-content:space-around
+    display:flex;
+    background-color:#FB0;
+    color:#fff;
+    top:26.8%;
+    right:-1500px;
+    overflow-x:scroll;
+    justify-content:space-around
   }
 
   .sliding-panel1 {
-  display:flex;
-  background-color:#DF004F;
-  color:#fff;
-  top:55%;
-  right:-1500px;
+    display:flex;
+    background-color:#DF004F;
+    color:#fff;
+    top:55%;
+    right:-1500px;
   }
 
   .help-text {
-  padding:35px 15px 10px
+    padding:35px 15px 10px
   }
 
   aside {
-  width:69%;
-  padding:0;
-  position:fixed;
-  transition:.6s all;
-  box-shadow:-9px 10px 0 0 #000;
-  z-index:5
+    width:69%;
+    padding:0;
+    position:fixed;
+    transition:.6s all;
+    box-shadow:-9px 10px 0 0 #000;
+    z-index:5
   }
 
   #toggle:checked + .sliding-panel {
-  right:0;
-  background-color:#C59000
+    right:0;
+    background-color:#C59000
   }
 
   #toggle2:checked + .sliding-panel1 {
-  right:0;
-  background-color:#AD003D
+    right:0;
+    background-color:#AD003D
   }
 
   .sliding-text {
-  font-size:10px
+    font-size:10px
   }
 
   ul li {
-  margin:1.5em
+    margin:1.5em
   }
 
 @media all and (max-width: 500px) {
   h2 {
-  background-color:#000;
-  color:#FFF
+    background-color:#000;
+    color:#FFF
   }
 
   h2:hover {
-  background-color:#FFF;
-  color:#000
+    background-color:#FFF;
+    color:#000
   }
 
   body {
-  width:100%;
-  background-image:url(./images/bg_image_beach.jpeg);
-  background-attachment:fixed;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-  overflow:scroll
+    width:100%;
+    background-image:url(./images/bg_image_beach.jpeg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    overflow:scroll
   }
 
   s {
-  font-size:2em;
-  color:rebeccapurple
+    font-size:2em;
+    color:rebeccapurple
   }
 
   .lab {
-  font-weight:700
+    font-weight:700
   }
 
   #main_p {
-  width:auto;
-  padding:.5em;
-  font-size:.75em;
-  background-color:#DF004F;
-  margin-bottom:2em
+    width:auto;
+    padding:.5em;
+    font-size:.75em;
+    background-color:#DF004F;
+    margin-bottom:2em
   }
 
   #header {
-  width:100%;
-  height:3em;
-  font-size:2em;
-  text-align:center;
-  background-color:rgba(0,158,142,0.8);
-  color:#fff;
-  font-family:lobster;
-  padding:-10%
+    width:100%;
+    height:3em;
+    font-size:2em;
+    text-align:center;
+    background-color:rgba(0,158,142,0.8);
+    color:#fff;
+    font-family:lobster;
+    padding:-10%
   }
 
   #title {
-  margin-top:1.5%
+    margin-top:1.5%
   }
 
   #main-container {
-  width:100%;
-  height:auto;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  padding:10%
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10%
   }
 
   * {
-  box-sizing:border-box;
-  -webkit-box-sizing:border-box
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box
   }
 
   html,body {
-  height:100%
+    height:100%
   }
 
   body {
-  margin:0;
-  font:16px/1.3 sans-serif
+    margin:0;
+    font:16px/1.3 sans-serif
   }
 
   .CSSgal {
-  position:relative;
-  overflow:hidden;
-  height:400px;
-  width:350px;
-  background-color:#FB0;
-  right:10%;
-  border:1em solid #FB0;
-  box-shadow:-10px 10px 0 0 #000;
-  margin-top:6em;
-  margin-left:3.5em
+    position:relative;
+    overflow:hidden;
+    height:400px;
+    width:350px;
+    background-color:#FB0;
+    right:10%;
+    border:1em solid #FB0;
+    box-shadow:-10px 10px 0 0 #000;
+    margin-top:6em;
+    margin-left:3.5em
   }
 
   .CSSgal .slider {
-  height:100%;
-  white-space:nowrap;
-  font-size:0;
-  transition:.8s
+    height:100%;
+    white-space:nowrap;
+    font-size:0;
+    transition:.8s
   }
 
   .CSSgal .slider > * {
-  font-size:1rem;
-  display:inline-block;
-  white-space:normal;
-  vertical-align:top;
-  height:100%;
-  width:100%;
-  background:none 50% no-repeat;
-  background-size:cover
+    font-size:1rem;
+    display:inline-block;
+    white-space:normal;
+    vertical-align:top;
+    height:100%;
+    width:100%;
+    background:none 50% no-repeat;
+    background-size:cover
   }
 
   .CSSgal .prevNext {
-  position:absolute;
-  z-index:1;
-  top:50%;
-  width:100%;
-  height:0
+    position:absolute;
+    z-index:1;
+    top:50%;
+    width:100%;
+    height:0
   }
 
   .CSSgal .prevNext > div+div {
-  visibility:hidden
+    visibility:hidden
   }
 
   .CSSgal .prevNext a {
-  background:#fff;
-  position:absolute;
-  width:60px;
-  height:60px;
-  line-height:60px;
-  text-align:center;
-  opacity:.7;
-  -webkit-transition:.3s;
-  transition:.3s;
-  -webkit-transform:translateY(-50%);
-  transform:translateY(-50%);
-  left:0
+    background:#fff;
+    position:absolute;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    opacity:.7;
+    -webkit-transition:.3s;
+    transition:.3s;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    left:0
   }
 
   .CSSgal .prevNext a:hover {
-  opacity:1
+    opacity:1
   }
 
   .CSSgal .prevNext a+a {
-  left:auto;
-  right:0
+    left:auto;
+    right:0
   }
 
   .CSSgal .bullets {
-  position:absolute;
-  z-index:2;
-  bottom:0;
-  padding:10px 0;
-  width:100%;
-  text-align:center
+    position:absolute;
+    z-index:2;
+    bottom:0;
+    padding:10px 0;
+    width:100%;
+    text-align:center
   }
 
   .CSSgal .bullets > a {
-  display:inline-block;
-  width:30px;
-  height:30px;
-  line-height:30px;
-  text-decoration:none;
-  text-align:center;
-  background:rgba(255,255,255,1);
-  -webkit-transition:.3s;
-  transition:.3s
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-decoration:none;
+    text-align:center;
+    background:rgba(255,255,255,1);
+    -webkit-transition:.3s;
+    transition:.3s
   }
 
   .CSSgal .bullets > a+a {
-  background:rgba(255,255,255,0.5)
+    background:rgba(255,255,255,0.5)
   }
 
   .CSSgal .bullets > a:hover {
-  background:rgba(255,255,255,0.7)!important
+    background:rgba(255,255,255,0.7)!important
   }
 
   .CSSgal >s:target ~ .bullets >* {
-  background:rgba(255,255,255,0.5)
+    background:rgba(255,255,255,0.5)
   }
 
   #s1:target ~ .bullets >:nth-child(1) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   #s2:target ~ .bullets >:nth-child(2) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   #s3:target ~ .bullets >:nth-child(3) {
-  background:rgba(255,255,255,1)
+    background:rgba(255,255,255,1)
   }
 
   .CSSgal >s:target ~ .prevNext >* {
-  visibility:hidden
+    visibility:hidden
   }
 
   #s1:target ~ .prevNext >:nth-child(1) {
-  visibility:visible
+    visibility:visible
   }
 
   #s2:target ~ .prevNext >:nth-child(2) {
-  visibility:visible
+    visibility:visible
   }
 
   #s3:target ~ .prevNext >:nth-child(3) {
-  visibility:visible
+    visibility:visible
   }
 
   #s1:target ~ .slider {
-  transform:translateX(0%);
-  -webkit-transform:translateX(0%)
+    transform:translateX(0%);
+    -webkit-transform:translateX(0%)
   }
 
   #s2:target ~ .slider {
-  transform:translateX(-100%);
-  -webkit-transform:translateX(-100%)
+    transform:translateX(-100%);
+    -webkit-transform:translateX(-100%)
   }
 
   #s3:target ~ .slider {
-  transform:translateX(-200%);
-  -webkit-transform:translateX(-200%)
+    transform:translateX(-200%);
+    -webkit-transform:translateX(-200%)
   }
 
   .CSSgal {
-  color:#fff;
-  text-align:center
+    color:#fff;
+    text-align:center
   }
 
   .CSSgal .slider h2 {
-  margin-top:25vh;
-  font-weight:200;
-  letter-spacing:-.06em;
-  word-spacing:.2em;
-  font-size:2em
+    margin-top:25vh;
+    font-weight:200;
+    letter-spacing:-.06em;
+    word-spacing:.2em;
+    font-size:2em
   }
 
   .CSSgal a {
-  border-radius:50%;
-  margin:0 3px;
-  color:rgba(0,0,0,0.8);
-  text-decoration:none
+    border-radius:50%;
+    margin:0 3px;
+    color:rgba(0,0,0,0.8);
+    text-decoration:none
   }
 
   .tabs {
-  display:flex;
-  flex-wrap:wrap;
-  height:30em;
-  min-width:40em;
-  margin:10%;
-  font-size:1em;
-  word-break:break-word;
-  min-width:85vw
+    display:flex;
+    flex-wrap:wrap;
+    height:30em;
+    min-width:40em;
+    margin:10%;
+    font-size:1em;
+    word-break:break-word;
+    min-width:85vw
   }
 
   .tabs label {
-  order:1;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:1rem 2rem;
-  margin-right:.2rem;
-  cursor:pointer;
-  background-color:#C59000;
-  font-weight:700;
-  transition:background ease .3s
+    order:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem 2rem;
+    margin-right:.2rem;
+    cursor:pointer;
+    background-color:#C59000;
+    font-weight:700;
+    transition:background ease .3s
   }
 
   .tabs .tab {
-  order:9;
-  flex-grow:1;
-  width:100%;
-  height:100%;
-  display:none;
-  padding:1rem;
-  background:#FB0;
-  padding:20px;
-  box-shadow:-10px 10px 0 0 #000;
-  overflow:scroll
+    order:9;
+    flex-grow:1;
+    width:100%;
+    height:100%;
+    display:none;
+    padding:1rem;
+    background:#FB0;
+    padding:20px;
+    box-shadow:-10px 10px 0 0 #000;
+    overflow:scroll
   }
 
   .tabs input[type="radio"] {
-  display:none
+    display:none
   }
 
   .tabs input[type="radio"]:checked + label {
-  background:#FB0
+    background:#FB0
   }
 
   .tabs input[type="radio"]:checked + label + .tab {
-  display:block
+    display:block
   }
 
   label[for="toggle"] {
-  font-size:.8rem;
-  position:fixed;
-  height:50px;
-  top:26.8%;
-  right:0;
-  z-index:6;
-  cursor:pointer;
-  padding:10px;
-  background-color:#FB0;
-  box-shadow:-10px 10px 0 0 #000;
-  transition:all .5s;
-  transform:rotate(270deg);
-  display:flex;
-  justify-content:center;
-  align-items:center
+    font-size:.8rem;
+    position:fixed;
+    height:50px;
+    top:26.8%;
+    right:0;
+    z-index:6;
+    cursor:pointer;
+    padding:10px;
+    background-color:#FB0;
+    box-shadow:-10px 10px 0 0 #000;
+    transition:all .5s;
+    transform:rotate(270deg);
+    display:flex;
+    justify-content:center;
+    align-items:center
   }
 
   label[for="toggle"]:hover {
-  animation-timing-function:.5s ease-in;
-  background-color:#FD2
+    animation-timing-function:.5s ease-in;
+    background-color:#FD2
   }
 
   label[for="toggle2"] {
-  font-size:.7rem;
-  position:fixed;
-  height:50px;
-  top:55%;
-  right:-0.8em;
-  z-index:6;
-  cursor:pointer;
-  padding:10px;
-  background-color:#DF004F;
-  box-shadow:-10px 10px 0 0 #000;
-  transition:all .5s;
-  transform:rotate(270deg);
-  display:flex;
-  justify-content:center;
-  align-items:center
+    font-size:.7rem;
+    position:fixed;
+    height:50px;
+    top:55%;
+    right:-0.8em;
+    z-index:6;
+    cursor:pointer;
+    padding:10px;
+    background-color:#DF004F;
+    box-shadow:-10px 10px 0 0 #000;
+    transition:all .5s;
+    transform:rotate(270deg);
+    display:flex;
+    justify-content:center;
+    align-items:center
   }
 
   label[for="toggle2"]:hover {
-  animation-timing-function:.5s ease-in;
-  background-color:#fa397e
+    animation-timing-function:.5s ease-in;
+    background-color:#fa397e
   }
 
   #toggle {
-  display:none
+    display:none
   }
 
   #toggle2 {
-  display:none
+    display:none
   }
 
   .sliding-panel {
-  display:flex;
-  background-color:#FB0;
-  color:#fff;
-  top:26.8%;
-  right:-1500px;
-  overflow-x:scroll;
-  justify-content:space-around
+    display:flex;
+    background-color:#FB0;
+    color:#fff;
+    top:26.8%;
+    right:-1500px;
+    overflow-x:scroll;
+    justify-content:space-around
   }
 
   .sliding-panel1 {
-  display:flex;
-  background-color:#DF004F;
-  color:#fff;
-  top:40%;
-  right:-1000px
+    display:flex;
+    background-color:#DF004F;
+    color:#fff;
+    top:40%;
+    right:-1000px
   }
 
   .help-text {
-  padding:35px 15px 10px
+    padding:35px 15px 10px
   }
 
   .help-text h2 {
-  width:70%
+    width:70%
   }
 
   .help-text input {
-  background-color:#000;
-  border:10px solid #da195e;
-  color:#fff
+    background-color:#000;
+    border:10px solid #da195e;
+    color:#fff
   }
 
   .help-text textarea {
-  color:#fff;
-  background-color:#000;
-  border:10px solid #da195e
+    color:#fff;
+    background-color:#000;
+    border:10px solid #da195e
   }
 
   aside {
-  width:69%;
-  padding:0;
-  position:fixed;
-  transition:.6s all;
-  box-shadow:-9px 10px 0 0 #000;
-  z-index:5
+    width:69%;
+    padding:0;
+    position:fixed;
+    transition:.6s all;
+    box-shadow:-9px 10px 0 0 #000;
+    z-index:5
   }
 
   #toggle:checked + .sliding-panel {
-  right:13%;
-  background-color:#C59000
+    right:13%;
+    background-color:#C59000
   }
 
   #toggle2:checked + .sliding-panel1 {
-  right:13%;
-  background-color:#AD003D
+    right:13%;
+    background-color:#AD003D
   }
 
   .sliding-text {
-  font-size:10px
+    font-size:10px
   }
 
   ul li {
-  margin:1em
+    margin:1em
   }
 }
